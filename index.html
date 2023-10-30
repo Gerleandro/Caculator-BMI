@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/15a36c81ce.js" crossorigin="anonymous"></script>
+    <title>Calculator BMI</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="#">Calculator BMI</a></h1>
+    </header>
+    <main>
+        <article>
+            <section>
+                <img id="img" src="images/undraw_personal_trainer_re_cnua.svg" alt="image">
+            </section>
+            <section>
+                <div class="calculator">
+                    <h3>Calculate you BMI</h3>
+                    <input id="height" type="number" placeholder="Height" required>
+                    <input id="weight" type="number" placeholder="Weight" required>
+                    <button onclick="calc()">Calculate</button>
+                    <button onclick="clean()">Clean</button>
+                </div>
+                <span>
+                    <p id="text"></p>
+                    <p id="bmi"></p>
+                </span>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Dev: Gerleandro S Silva.</p>
+    </footer>
+    <script src="apps/script.js"></script>
+</body>
+
+</html>
